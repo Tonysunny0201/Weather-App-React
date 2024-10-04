@@ -26,7 +26,7 @@ function App() {
           </div>
           <h1>Weather App</h1>
           <div className='d-flex justify-content-between'>
-            <input onChange={(e)=>setCityName(e.target.value)} style={{width:'90%'}} type="text" placeholder='Search' className='border rounded' name="" id="" />
+            <input onChange={e=>setCityName(e.target.value)} style={{width:'90%'}} type="text" placeholder='Search' className='border rounded' name="" id="" />
             <button onClick={getweatherData} className='btn btn-dark rounded'><i class="fa-solid fa-magnifying-glass"></i></button>
           </div>
           <div>
